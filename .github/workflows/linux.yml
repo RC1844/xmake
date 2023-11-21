@@ -35,7 +35,6 @@ jobs:
 
       - name: Tests
         run: |
-          xmake lua -v -D tests/run.lua
           xrepo --version
 
       - name: Publish

@@ -85,7 +85,7 @@ source=xmake_$version+"$patch$serie"_source
 if [ -f ../$source.ppa.upload ]; then
     rm ../$source.ppa.upload
 fi
-dput ppa:xmake-io/xmake ../$source.changes
+#dput ppa:xmake-io/xmake ../$source.changes
 
 # remove workdir
 cd ../..
